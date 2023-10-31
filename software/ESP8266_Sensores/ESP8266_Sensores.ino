@@ -13,6 +13,7 @@ void setup() {
   //para comunicarse con la PC
   //a una velocidad de 9600 bauds.
   sensors.begin();                     //Se inician los sensores
+  Serial.println("ESP inicializado");
 }
 
 void loop() {
@@ -22,10 +23,15 @@ void loop() {
   sensors.requestTemperatures();       //Prepara el sensor de temperatura para la lectura
   float Temperatura = sensors.getTempCByIndex(0); //Se obtiene el dato de temperatura
   
-  Serial.print("Humedad: ");
-  Serial.println(Humedad); //Se lee e imprime el dato del sensor de humedad
-  Serial.print(Temperatura); //Se lee e imprime la temperatura en grados Centigrados
-  Serial.println(" Grados Centigrados");
+  if(!(Valor_Humedad<200)){ //Si no se detecta sensor de humedad no imprime datos de humedad
+    Serial.print("Humedad: ");
+    Serial.println(Humedad); //Se lee e imprime el dato del sensor de humedad
+  }
+  
+  if(!(Temperatura<-100)){ //Si no se detecta sensor de temperatura no imprime datos de temperatura
+    Serial.print(Temperatura); //Se lee e imprime la temperatura en grados Centigrados
+    Serial.println(" Grados Centigrados");
+  }
 
   delay(1000);                         //Se provoca una parada de 1 segundo antes de la próxima lectura
 }
