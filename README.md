@@ -1,20 +1,3 @@
-# Sensor de temperatura DS19B20
-
-<img src="https://www.epal.pk/wp-content/uploads/2017/05/ds18b20-waterproof.jpg" alt="fig. 1" width="350"/>
-
-## Especificaciones
-- Resolución A/D: 12 bits
-- Resolución en temperatura: 0.5°C
-- Voltage de operación: 5V
-
-El módulo tiene 3 terminales (pines) de conexión:
-- 1. VCC: conectar a +5V
-- 2. D: salida de datos
-- 3. GND: conectar a GND
-
-## Diagrama de conexión con Arduino
-
-<img src="img/Schematic.png" alt="fig. 1"/>
 
 ## Carga del firmware
 
@@ -42,6 +25,24 @@ Esta aplicación es muy sencilla. Lee los datos del sensor y los envía a la com
 
 9. Asegurarse que la velocidad de comunicación está seteada en 9600 bauds
 
+# Sensor de temperatura DS19B20
+
+<img src="https://www.epal.pk/wp-content/uploads/2017/05/ds18b20-waterproof.jpg" alt="fig. 1" width="350"/>
+
+## Especificaciones
+- Resolución A/D: 12 bits
+- Resolución en temperatura: 0.5°C
+- Voltage de operación: 5V
+
+El módulo tiene 3 terminales (pines) de conexión:
+- 1. VCC: conectar a +5V
+- 2. D: salida de datos
+- 3. GND: conectar a GND
+
+## Diagrama de conexión con Arduino
+
+<img src="img/Schematic.png" alt="fig. 1"/>
+
 ### AHORA PROBÁ CALENTAR EL SENSOR CON LA MANO!!!
 
 # Sensor de humedad de suelo
@@ -65,32 +66,6 @@ El módulo tiene 4 terminales (pines) de conexión:
 ## Diagrama de conexión con Arduino
 
 <img src="img/Schematic.png" alt="fig. 1" width="450"/>
-
-## Carga del firmware
-
-Esta aplicación es muy sencilla. Lee los datos del sensor y los envía a la computadora para visualizarlos.
-
-1. Descargar a su PC el [firmware](firmware/firmware.ino)
-2. Abrir la aplicación [Arduino IDE](https://www.arduino.cc/en/software)
-
-<img src="img/arduinoIDE_1.png" alt="fig. 1" width="300"/>
-
-3. Abrir el código que descargó en el punto 1.
-4. Conectar el Arduino a la computadora con el cable USB.
-5. Seleccionar el puerto serie correspondiente al Arduino.
-
-<img src="img/arduinoIDE_2.png" alt="fig. 1" width="300"/>
-
-6. Seleccionar la placa Arduino que corresponde.
-
-<img src="img/arduinoIDE_3.png" alt="fig. 1" width="300"/>
-
-7. Cargar el firmware.
-8. Abrir el *monitor serial* o el *serial plotter*
-
-<img src="img/arduinoIDE_4.png" alt="fig. 1" width="300"/>
-
-9. Asegurarse que la velocidad de comunicación está seteada en 9600 bauds
 
 ### AHORA PROBÁ METER EL SENSOR EN AGUA DE A POCO!!!
 
