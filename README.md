@@ -5,14 +5,12 @@ Esta aplicación es muy sencilla. Lee los datos de ambos sensores y los envía a
 
 1. Descargar a su PC el [firmware](firmware/firmware.ino)
 2. Abrir la aplicación Arduino IDE
-
 3. Abrir el código que descargó en el punto 1.
 4. Conectar el Arduino a la computadora con el cable USB.
 5. Como no vamos a usar una placa de Arduino en este taller, tenemos que instalar los controladores para la placa:
 
 Este paso es necesario para que  nuestro IDE de arduino reconozca a nuestro ESP8266 como una tarjeta.
 Debemos tener ya instalado nuestro Arduino IDE con versión 1.6.4 o superior.
-
 Seguidamente vamos a archivo>Preferencias y en la casilla  “Gestor de URLs Adicionales de Tarjetas” agregamos:
 http://arduino.esp8266.com/stable/package_esp8266com_index.json 
 
@@ -22,20 +20,15 @@ Seguidamente vamos a Herramientas>placa: … >Gestor de Tarjetas
 Y buscamos en la lista  “esp8266 by ESP8266 Community“, lo seleccionamos  e instalamos
 
 <img src="img/Gestor de tarjetas- esp8266.jpg" alt="fig. 1"/>
-<img src="img/arduinoIDE_1.png" alt="fig. 1"/>
 
-<img src="img/arduinoIDE_2.png" alt="fig. 1"/>
-
-7. Seleccionar la placa Arduino que corresponde.
+6. Seleccionar la placa Arduino que corresponde.
 En herramientas>placas, deben de estar las nuevas placas instaladas.
    
 <img src="img/Tarjetas.jpg" alt="fig. 1"/>
-<img src="img/arduinoIDE_3.png" alt="fig. 1"/>
 
-7. Cargar el firmware.
+7. Cargar el firmware descargado en el punto 1.
+   <img src="img/arduinoIDE_4.png" alt="fig. 1"/>
 8. Abrir el *monitor serial* o el *serial plotter*
-
-<img src="img/arduinoIDE_4.png" alt="fig. 1"/>
 
 9. Asegurarse que la velocidad de comunicación está seteada en 9600 bauds
 
