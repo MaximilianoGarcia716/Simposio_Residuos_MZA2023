@@ -3,7 +3,7 @@
 
 Esta aplicación es muy sencilla. Lee los datos de ambos sensores y los envía a la computadora para visualizarlos.
 
-1. Descargar a su PC el [firmware](firmware/firmware.ino)
+1. Descargar a su PC el [firmware](software/ESP8266_Sensores/ESP8266_Sensores.ino)
 2. Abrir la aplicación Arduino IDE
 3. Abrir el código que descargó en el punto 1.
 4. Conectar el Arduino a la computadora con el cable USB.
