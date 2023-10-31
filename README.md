@@ -14,7 +14,7 @@ El módulo tiene 3 terminales (pines) de conexión:
 
 ## Diagrama de conexión con Arduino
 
-<img src="img/Schematic.png" alt="fig. 1" width="450"/>
+<img src="img/Schematic.png" alt="fig. 1"/>
 
 ## Carga del firmware
 
@@ -23,22 +23,22 @@ Esta aplicación es muy sencilla. Lee los datos del sensor y los envía a la com
 1. Descargar a su PC el [firmware](firmware/firmware.ino)
 2. Abrir la aplicación [Arduino IDE](https://www.arduino.cc/en/software)
 
-<img src="img/arduinoIDE_1.png" alt="fig. 1" width="300"/>
+<img src="img/arduinoIDE_1.png" alt="fig. 1"/>
 
 3. Abrir el código que descargó en el punto 1.
 4. Conectar el Arduino a la computadora con el cable USB.
 5. Seleccionar el puerto serie correspondiente al Arduino.
 
-<img src="img/arduinoIDE_2.png" alt="fig. 1" width="300"/>
+<img src="img/arduinoIDE_2.png" alt="fig. 1"/>
 
 6. Seleccionar la placa Arduino que corresponde.
 
-<img src="img/arduinoIDE_3.png" alt="fig. 1" width="300"/>
+<img src="img/arduinoIDE_3.png" alt="fig. 1"/>
 
 7. Cargar el firmware.
 8. Abrir el *monitor serial* o el *serial plotter*
 
-<img src="img/arduinoIDE_4.png" alt="fig. 1" width="300"/>
+<img src="img/arduinoIDE_4.png" alt="fig. 1"/>
 
 9. Asegurarse que la velocidad de comunicación está seteada en 9600 bauds
 
