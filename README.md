@@ -29,7 +29,7 @@ En herramientas>placas, deben de estar las nuevas placas instaladas.
 7. Cargar el firmware descargado en el punto 1.
 
    
-   <img src="img/arduinoIDE_4.png" alt="fig. 1"/>
+<img src="img/arduinoIDE_4.png" alt="fig. 1"/>
 
    
 8. Abrir el *monitor serial* o el *serial plotter*
