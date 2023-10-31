@@ -14,22 +14,22 @@ Esta aplicación es muy sencilla. Lee los datos de ambos sensores y los envía a
    Seguidamente vamos a archivo>Preferencias y en la casilla  “Gestor de URLs Adicionales de Tarjetas” agregamos:
    http://arduino.esp8266.com/stable/package_esp8266com_index.json 
 
-<img src="img/Preferencias, package esp8266.jpg" alt="package installation"/>
+   <img src="img/Preferencias, package esp8266.jpg" alt="package installation"/>
 
    Seguidamente vamos a Herramientas>placa: … >Gestor de Tarjetas
    Y buscamos en la lista  “esp8266 by ESP8266 Community“, lo seleccionamos  e instalamos
 
-<img src="img/Gestor de tarjetas- esp8266.jpg" alt="fig. 1"/>
+   <img src="img/Gestor de tarjetas- esp8266.jpg" alt="fig. 1"/>
 
 6. Seleccionar la placa Arduino que corresponde.
    En herramientas>placas, deben de estar las nuevas placas instaladas.
    
-<img src="img/Tarjetas.jpg" alt="fig. 1"/>
+   <img src="img/Tarjetas.jpg" alt="fig. 1"/>
 
 7. Cargar el firmware descargado en el punto 1.
 
    
-<img src="img/arduinoIDE_4.png" alt="fig. 1"/>
+   <img src="img/arduinoIDE_4.png" alt="fig. 1"/>
 
    
 8. Abrir el *monitor serial* o el *serial plotter*
