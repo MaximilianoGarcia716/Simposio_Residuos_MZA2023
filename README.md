@@ -1,16 +1,16 @@
 
 ## Carga del firmware
 
-Esta aplicación es muy sencilla. Lee los datos del sensor y los envía a la computadora para visualizarlos.
+Esta aplicación es muy sencilla. Lee los datos de ambos sensores y los envía a la computadora para visualizarlos.
 
 1. Descargar a su PC el [firmware](firmware/firmware.ino)
-2. Abrir la aplicación [Arduino IDE](https://www.arduino.cc/en/software)
-
-<img src="img/arduinoIDE_1.png" alt="fig. 1"/>
+2. Abrir la aplicación Arduino IDE
 
 3. Abrir el código que descargó en el punto 1.
 4. Conectar el Arduino a la computadora con el cable USB.
 5. Seleccionar el puerto serie correspondiente al Arduino.
+
+<img src="img/arduinoIDE_1.png" alt="fig. 1"/>
 
 <img src="img/arduinoIDE_2.png" alt="fig. 1"/>
 
