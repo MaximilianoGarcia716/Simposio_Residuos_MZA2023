@@ -60,7 +60,7 @@ Repetí los punto 7, 8 y 9 de la primera sección y deberias poder ver los valor
 
 # Sensor de humedad de suelo
 
-<img src="http://www.hellasdigital.gr/images/detailed/5/Hot-Sale-LM393-3-3-5V-Soil-Hygrometer-Detection-Module-Soil-Moisture-Water-Sensor-for-Arduino.jpg" alt="fig. 1" width="350"/>
+<img src="img/hum_sensor.jpg" alt="humidity sensor" width="350"/>
 
 ## Descripción
 
