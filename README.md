@@ -14,7 +14,7 @@ Debemos tener ya instalado nuestro Arduino IDE con versión 1.6.4 o superior.
 Seguidamente vamos a archivo>Preferencias y en la casilla  “Gestor de URLs Adicionales de Tarjetas” agregamos:
 http://arduino.esp8266.com/stable/package_esp8266com_index.json 
 
-<img src="img/Preferencias, package esp8266.jpg" alt="fig. 1"/>
+<img src="img/Preferencias, package esp8266.jpg" alt="package installation"/>
 
 Seguidamente vamos a Herramientas>placa: … >Gestor de Tarjetas
 Y buscamos en la lista  “esp8266 by ESP8266 Community“, lo seleccionamos  e instalamos
@@ -52,7 +52,7 @@ El módulo tiene 3 terminales (pines) de conexión:
 
 ## Diagrama de conexión con ESP8266
 
-<img src="img/Schematic_Temp.png" alt="fig. 1"/>
+<img src="img/Schematic_Temp.png" alt="temp schematic" width="450"/>
 
 Repetí los punto 7, 8 y 9 de la primera sección y deberias poder ver los valores por consola.
 
@@ -78,7 +78,7 @@ El módulo tiene 4 terminales (pines) de conexión:
 
 ## Diagrama de conexión con ESP8266
 
-<img src="img/Schematic_Hum.png" alt="fig. 1" width="450"/>
+<img src="img/Schematic_Hum.png" alt="hum schematic" width="450"/>
 
 Repetí los punto 7, 8 y 9 de la primera sección y deberias poder ver los valores por consola.
 ### AHORA PROBÁ METER EL SENSOR EN AGUA DE A POCO!!!
@@ -86,7 +86,7 @@ Repetí los punto 7, 8 y 9 de la primera sección y deberias poder ver los valor
 # Sensores de humedad y temperatura en conjunto
 Vamos a conectar los dos sensores a una misma placa para poder observar temperatura y humedad al mismo tiempo. Para esto, utilizamos el mismo firmware descargado en el punto 1, y para las conexiones seguimos el siguiente diagrama: 
 
-<img src="img/Schematic.png" alt="fig. 1" width="450"/> 
+<img src="img/Schematic.png" alt="global schematic" width="450"/> 
 
 Ahora, siguiendo los puntos 7, 8 y 9 de la primera sección, deberíamos poder ver en el monitor los valores de humedad y temperatura.
 
