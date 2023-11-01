@@ -1,3 +1,6 @@
+## Sensores de Temperatura y Humedad con ESP8266
+
+Este instructivo es para realizar el armado y utilización de sensores de temperatura y humedad con el microprocesador ESP8266, prsentado en el taller de tecnologías abiertas del IV Simposio de Residuos agropecuarios y agroindustriales, en la ciudad de Mendoza, el 01 de noviembre de 2023 
 
 ## Carga del firmware
 
