@@ -26,15 +26,21 @@ Esta aplicación es muy sencilla. Lee los datos de ambos sensores y los envía a
    
    <img src="img/Tarjetas.jpg" alt="fig. 1"/>
 
-7. Cargar el firmware descargado en el punto 1.
+7.Instalar las librerías necesarias para usar los sensores. 
+   Vamos a programa > inlcuir librerías... o incluir biblioteca (depende la versión utilizada) > en el buscaror escribimos "onewire" y esperamos a que se carguen las librerías. Cuando encontremos la librería (OneWire de Jim Studt, Tom Pollard..., clickeamoss "instalar" y esperamos.
+   Realizamos lo mismo pero para la librería "dallastemperature" de Miles Burton...
+     
+   <img src="img/librerías.png" alt="fig. 1"/>
+   
+8. Cargar el firmware descargado en el punto 1 en el microprocesador.
 
    
    <img src="img/arduinoIDE_4.png" alt="fig. 1"/>
 
    
-8. Abrir el *monitor serial* o el *serial plotter*
+9. Abrir el *monitor serial* o el *serial plotter*
 
-9. Asegurarse que la velocidad de comunicación está seteada en 9600 bauds
+10. Asegurarse que la velocidad de comunicación está seteada en 9600 bauds
 
 # Sensor de temperatura DS19B20
 
