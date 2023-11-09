@@ -3,10 +3,10 @@
 #include <ESP8266WiFi.h>            //Importa la libreria de WiFi para el ESP8266, si se usa un chip de arduino usa WiFi.h en su lugar
 #include <ThingSpeak.h>
 #define Pin 2                        //Se declara el pin donde se conectará la DATA
-#define ChannelNumber1 2228967               //Numero de canal de Thingspeak
-#define WriteAPIKey1 "L9KWRY7K4WULSKFF"      //Contraseña API de Thingspeak
-#define ssid "Tecnologia"                   //Nombre de red Wifi
-#define password "Tecno2022"                //Clave del Wifi
+#define ChannelNumber1 XXXXXX               //Numero de canal de Thingspeak
+#define WriteAPIKey1 "XXXXXXXXXXXX"      //Contraseña API de Thingspeak
+#define ssid "XXXXXX"                   //Nombre de red Wifi
+#define password "XXXXXXXX"                //Clave del Wifi
 
 
 
